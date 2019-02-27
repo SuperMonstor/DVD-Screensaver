@@ -48,7 +48,7 @@ public class moveLogo extends JPanel implements ActionListener {
         timer.start();
 
         try {
-            img = ImageIO.read(new File("/Users/ssk12/Google Drive/Computer/Java/TestProject/dvd_logo/src/dvd2.png"));
+            img = ImageIO.read(new File("/Users/ssk12/Google Drive/Computer/Java/TestProject/DVD-Screensaver/src/dvd2.png"));
         } catch(IOException e) {
             System.out.println("Image not found!");
             System.exit(0);
